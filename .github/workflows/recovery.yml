@@ -27,8 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget https://oshi.at/LZhi
-        mv cTrK.img recovery.img
+        wget https://oshi.at/LZhi && mv cTrK.img recovery.img       
     - name: Patch Process-1
       run: |
         chmod a+x script1.sh
