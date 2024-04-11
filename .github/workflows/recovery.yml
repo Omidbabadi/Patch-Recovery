@@ -5,7 +5,7 @@ on:
     inputs:
       RECOVERY_URL:
         description: 'RECOVERY URL'
-        required: true
+        required: false
         default: 'https://oshi.at/LZhi'
 
 env:
@@ -27,8 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget ${{github.event.inputs.RECOVERY_URL }}
-
+        wget https://oshi.at/Rpjg
     - name: Patch Process-1
       run: |
         chmod a+x script1.sh
