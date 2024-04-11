@@ -6,7 +6,7 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: true
-        default: 'https://file.io/YbXhnNsvBBF8'
+        default: 'https://oshi.at/LZhi'
 
 env:
   RECOVERY_URL: https://oshi.at/Rpjg
