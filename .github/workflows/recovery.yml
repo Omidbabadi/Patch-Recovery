@@ -9,7 +9,7 @@ on:
         default: 'https://oshi.at/LZhi'
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  RECOVERY_URL: https://oshi.at/LZhi
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget https://oshi.at/Rpjg
+        wget https://oshi.at/LZhi
     - name: Patch Process-1
       run: |
         chmod a+x script1.sh
