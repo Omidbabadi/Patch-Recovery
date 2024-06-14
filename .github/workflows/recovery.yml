@@ -6,10 +6,10 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: false
-        default: 'https://oshi.at/LZhi'
+        default: 'https://oshi.at/pgmS'
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  RECOVERY_URL: https://oshi.at/pgmS
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
         ls
         pwd
         wget https://oshi.at/LZhi
-        mv LZhi recovery.img
+        mv Ogzj.img recovery.img
         ls
     - name: Patch Process-1
       run: |
