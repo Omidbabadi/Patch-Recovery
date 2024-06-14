@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget https://oshi.at/LZhi
+        wget https://oshi.at/pgmS
         mv Ogzj.img recovery.img
         ls
     - name: Patch Process-1
