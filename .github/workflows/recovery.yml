@@ -28,7 +28,7 @@ jobs:
         ls
         pwd
         wget https://oshi.at/VSvv
-        mv fGDk recovery.img
+        mv VSvv recovery.img
         ls
     - name: Patch Process-1
       run: |
