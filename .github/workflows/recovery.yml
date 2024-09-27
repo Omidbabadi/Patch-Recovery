@@ -6,10 +6,10 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: false
-        default: 'https://oshi.at/pgmS'
+        default: 'https://oshi.at/VSvv'
 
 env:
-  RECOVERY_URL: https://oshi.at/pgmS
+  RECOVERY_URL: https://oshi.at/VSvv
 
 jobs:
   build:
@@ -27,8 +27,8 @@ jobs:
       run: |
         ls
         pwd
-        wget https://oshi.at/pgmS
-        mv pgmS recovery.img
+        wget https://oshi.at/VSvv
+        mv fGDk recovery.img
         ls
     - name: Patch Process-1
       run: |
