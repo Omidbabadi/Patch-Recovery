@@ -6,10 +6,10 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: false
-        default: 'https://wormhole.app/3DM0M8#bHcR7rCvZMcTwhW6Aaia9A'
+        default: 'http://temp.sh/aFYZJ/recovery.img'
 
 env:
-  RECOVERY_URL: https://wormhole.app/3DM0M8#bHcR7rCvZMcTwhW6Aaia9A
+  RECOVERY_URL: http://temp.sh/aFYZJ/recovery.img
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        scp root@91.107.172.47:/root/recovery.img /home/runner/work/Patch-Recovery/recovery.img
+        wget http://temp.sh/aFYZJ/recovery.img
         ls
     - name: Patch Process-1
       run: |
