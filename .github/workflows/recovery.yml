@@ -28,7 +28,7 @@ jobs:
         ls
         pwd
         wget  https://oshi.at/wcSZ/recovery.img
-        mv wcSZ recovery.img
+       
         ls
     - name: Patch Process-1
       run: |
