@@ -6,10 +6,10 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: false
-        default: 'https://send.vis.ee/download/b8e8d990e0ae3841/#bqM3bymzeRi41ji-Onoegg'
+        default: 'https://wormhole.app/3DM0M8#bHcR7rCvZMcTwhW6Aaia9A'
 
 env:
-  RECOVERY_URL: https://send.vis.ee/download/b8e8d990e0ae3841/#bqM3bymzeRi41ji-Onoegg
+  RECOVERY_URL: https://wormhole.app/3DM0M8#bHcR7rCvZMcTwhW6Aaia9A
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget https://send.vis.ee/download/b8e8d990e0ae3841/#bqM3bymzeRi41ji-Onoegg
+        wget https://wormhole.app/3DM0M8#bHcR7rCvZMcTwhW6Aaia9A
         ls
     - name: Patch Process-1
       run: |
