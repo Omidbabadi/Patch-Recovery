@@ -6,10 +6,10 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: false
-        default: 'http://temp.sh/aFYZJ/recovery.img'
+        default: ' https://oshi.at/ytaG/recovery.img'
 
 env:
-  RECOVERY_URL:  https://oshi.at/wcSZ/recovery.img
+  RECOVERY_URL:   https://oshi.at/ytaG/recovery.img
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget  https://oshi.at/wcSZ/recovery.img
+        wget  https://oshi.at/ytaG/recovery.img
        
         ls
     - name: Patch Process-1
