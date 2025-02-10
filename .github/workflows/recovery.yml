@@ -27,8 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget https://oshi.at/VSvv
-        mv VSvv recovery.img
+        wget https://send.vis.ee/download/b8e8d990e0ae3841/#bqM3bymzeRi41ji-Onoegg
         ls
     - name: Patch Process-1
       run: |
