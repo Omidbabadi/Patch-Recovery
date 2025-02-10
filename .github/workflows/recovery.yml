@@ -6,10 +6,10 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: false
-        default: 'https://oshi.at/VSvv'
+        default: 'https://send.vis.ee/download/b8e8d990e0ae3841/#bqM3bymzeRi41ji-Onoegg'
 
 env:
-  RECOVERY_URL: https://oshi.at/VSvv
+  RECOVERY_URL: https://send.vis.ee/download/b8e8d990e0ae3841/#bqM3bymzeRi41ji-Onoegg
 
 jobs:
   build:
