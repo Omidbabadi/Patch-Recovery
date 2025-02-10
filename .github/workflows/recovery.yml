@@ -9,7 +9,7 @@ on:
         default: 'http://temp.sh/aFYZJ/recovery.img'
 
 env:
-  RECOVERY_URL: http://temp.sh/aFYZJ/recovery.img
+  RECOVERY_URL:  https://oshi.at/wcSZ/recovery.img
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget http://temp.sh/aFYZJ/recovery.img
+        wget  https://oshi.at/wcSZ/recovery.img
         ls
     - name: Patch Process-1
       run: |
