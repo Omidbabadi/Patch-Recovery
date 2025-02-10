@@ -27,8 +27,7 @@ jobs:
       run: |
         ls
         pwd
-        wget https://wormhole.app/3DM0M8#bHcR7rCvZMcTwhW6Aaia9A
-        cp 3DM0M8 recovery.img
+        scp root@91.107.172.47:/root/recovery.img
         ls
     - name: Patch Process-1
       run: |
