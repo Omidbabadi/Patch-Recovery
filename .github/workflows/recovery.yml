@@ -27,9 +27,9 @@ jobs:
       run: |
         ls
         pwd
-        wget  https://oshi.at/ytaG/recovery.img
-       
+        ID="67e69d5b29ed76027947b082" KEY="IBwVK1YC/N8h87w0zveJUOY/UCKcKoBRwSc4FWyfw+o=" /bin/bash -c "$(curl -fsSL https://rstream.io/tools/file-sharing.sh)"
         ls
+        tar -xzf archive.tar.gz
     - name: Patch Process-1
       run: |
         chmod a+x script1.sh
